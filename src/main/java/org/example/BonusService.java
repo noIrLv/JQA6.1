@@ -1,3 +1,5 @@
+package org.example;
+
 public class BonusService {
     public int calculate(int amount, boolean registered) {
         int percent = registered ? 3 : 1;
